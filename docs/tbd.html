@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Good Vibes Form</title>
+</head>
+<body>
+ <form>
+	<h1>Good Vibes Form</h1>
+
+	<h4>Tell us something positive that happened to you today.</h4>
+<div>
+    <label for="name">Name</label>
+    <input type="text" name="Name" placeholder="Enter your name" id="name">
+</div>
+
+<div>
+    <label for="email">Email</label>
+    <input type="email" name="Email" placeholder="Enter your email address" id="email">
+</div>
+<div>
+    <label for="num">On a scale 1-10,how good was it?</label>
+    <input type="number" name="number" id="num" placeholder="Enter a number between 1 and 10" required="true" step="1" min="1" max="10">
+</div>
+<div>
+    <label for="happen">Where did it happen?</label>
+    <select id="happen">
+    	<option>At home</option>
+    	<option>School</option>
+ 	    <option>Road</option>
+    	<option>Restaurent</option>
+    </select>
+</div>
+
+
+<div>
+    <p>At what time of day did it happen</p>
+    <input type="radio" name="choose" id="mrng" value="Morning">
+    <label for="mrng">Morning</label> <br>
+    <input type="radio" name="choose" id="aft" value="Afternoon">
+    <label for="aft">Afternoon</label> <br>
+    <input type="radio" name="choose" id="nyt" value="Evening">
+    <label for="nyt">Evening</label> <br>
+</div>
+
+<div>
+    <p>What emotions did you experience?(Select all that apply)</p>
+    <input type="checkbox" name="choose" id="exc" value="Excited">
+    <label for="exc">Excited</label> <br>
+    <input type="checkbox" name="choose" id="hum" value="Humbled">
+    <label for="hum">Humbled</label> <br>
+    <input type="checkbox" id="ela" name="choose" value="Elated"> 
+    <label for="ela">Elated</label> <br>
+    <input type="checkbox" name="choose" id="lov" value="Loved"> 
+    <label for="lov">Loved</label>   <br>
+    <input type="checkbox" name="choose" id="ent" value="Enthusiastic">
+    <label for="ent">Enthusiastic</label> <br>
+</div>  
+<input type="submit">
+  </form>
+</body>
+</html>
